@@ -1,0 +1,14 @@
+{
+    "name": "IMS Captcha Solver",
+    "version": "1.0",
+    "author": "Param Chauhan",
+    "description": "Fill the captcha on NSUT's IMS login page",
+    "permissions": ["*://www.imsnsit.org/imsnsit/student.htm"],
+    "content_scripts": [
+      {
+        "matches": ["*://www.imsnsit.org/imsnsit/student.htm"],
+        "js": ["captcha.js"]
+      }
+    ],
+    "manifest_version": 2
+  }
