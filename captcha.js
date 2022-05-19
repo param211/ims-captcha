@@ -21,7 +21,7 @@ window.onload = function() {
 
     captchaID = img.src.match(regexPattern)
 
-    apiUrl = "https://server.paramchauhan.com/ims?captcha_id=" + captchaID
+    apiUrl = "https://uniprot-api.herokuapp.com/captcha=" + captchaID
 
     console.log(apiUrl)
 
